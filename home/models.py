@@ -37,3 +37,4 @@ class HomePage(models.Model):
 class As(models.Model):
     "Generated Model"
     asd = models.BigIntegerField()
+    aqa = models.BigIntegerField(null=True, blank=True,)
